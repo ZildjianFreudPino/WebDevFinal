@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0 ;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+ul{
+    list-style: none;
+    background: #5d7d3c;
+    text-align: left;
+    position: relative;
+    width: 1050px;
+    margin: 20px auto 24px;
+    border-radius: 45px;
+    padding-left: 50px;
+    margin-bottom: 5px;
+    margin-right: 480px;
+}
+#nav{
+    background-color: rgb(96, 192, 96);
+    border-radius: 45px;
+    background-size: cover;
+    padding-right: 52px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+ul li ul.drop-dow li{
+    display: block;
+    background:rgb(45, 99, 45);
+    margin: 2px 0px;
+}
+ul li ul.dropdown{
+    width: auto;
+    background:rgb(45, 99, 45);
+    position: absolute;
+    z-index: 999;
+    display: none;
+    padding-right: 80px;
+    padding-left: 1px;
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 0px;
+    padding-top: 1px;
+    text-align: left;
+}
+ul li a:hover {
+    color: rgb(47, 94, 47);
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+#Icons {
+    padding-top: 20px;
+    position: relative;
+    left: 380px;
+    font-size: 38px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+#class {
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', sans-serif;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    margin-left: 380px;
+}
+
+#poem {
+    margin-left: 380px;
+    margin-right: 50%;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: black;
+}
+
+h2 {
+    font: inherit;
+}
+
+#Apply {
+    color: #fff;
+    background: #6899c8;
+    width: 248px;
+    font-size: 24px;
+    line-height: 62px;
+    border-radius: 45px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Sedgwick Ave Display', cursive;
+    margin-left: 370px;
+}
+
+#Apply:hover {
+    background-color: rgb(3, 121, 3);
+
+}
+
+#image {
+    position: absolute;
+    border-radius: 0px 0px 0px 80px;
+    margin-top: 0;
+    margin-left: 60%;
+    background-image: url(./Pcs/pxfuel.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 550px;
+}
+
+
