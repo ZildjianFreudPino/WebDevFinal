@@ -2,13 +2,12 @@ body {
   margin: 0px;
   color: #fff;
   background-image: url(../Pcs/seamless-texture-white-brick-cement-wall-rough-surface-with-space-text-backgroundx9_661047-1629.avif);
-
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Sedgwick Ave Display", cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
 }
 
 ul {
@@ -97,7 +96,7 @@ li:hover ul.dropdown {
 }
 
 h1 {
-  font-family: "Cabin Sketch", sans-serif;
+  font-family: 'Cabin Sketch', sans-serif;
   font-size: 80px;
   color: rgb(0, 0, 0);
   margin-left: 380px;
@@ -107,7 +106,7 @@ h1 {
 #poem {
   margin-left: 380px;
   margin-right: 50%;
-  font-family: "Sedgwick Ave Display", cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
   color: black;
   margin-top: 20px;
 }
@@ -126,7 +125,7 @@ h2 {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  font-family: "Sedgwick Ave Display", cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
   margin-left: 370px;
   margin-top: 20px;
 }
@@ -149,9 +148,8 @@ h2 {
   transition: all 0.3s;
 }
 
-
-#poem2{
-  color:rgb(0, 0, 0);
+#poem2 {
+  color: rgb(0, 0, 0);
   text-align: center;
   font-family: comic sans-serif;
   padding-left: 10%;
@@ -159,16 +157,16 @@ h2 {
   padding-bottom: 45%;
 }
 
-#color{
-  background-color: #5499C7;
+#color {
+  background-color: #5499c7;
 }
 
-#section1{
+#section1 {
   border: hidden;
   border-radius: 25px;
   padding: 25px;
   float: left;
-  background-color: #FDFEFE;
+  background-color: #fdfefe;
   width: 13%;
   margin-left: 30%;
   top: 230px;
@@ -179,15 +177,15 @@ h2 {
   margin-top: 5%;
 }
 
-#section2{
+#section2 {
   border: hidden;
   border-radius: 25px;
   padding: 25px;
   float: right;
-  background-color: #FDFEFE;
+  background-color: #fdfefe;
   width: 13%;
   margin-right: 10%;
-  top: 230px; 
+  top: 230px;
   height: 20%;
   position: sticky;
   color: #000000;
@@ -195,71 +193,70 @@ h2 {
   margin-top: 5%;
 }
 
-.content1{
+.content1 {
   font-size: 20px;
-  font-family: "Sedgwick Ave Display", cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
 }
 
-#content2{
+#content2 {
   font-size: 20px;
-  font-family: "Sedgwick Ave Display", cursive;
+  font-family: 'Sedgwick Ave Display', cursive;
   margin-left: 15%;
   margin-right: 15%;
 }
 
-.header{
+.header {
   font-size: 30px;
-  font-family: "Cabin Sketch", sans-serif;
+  font-family: 'Cabin Sketch', sans-serif;
 }
 
-#header1{
+#header1 {
   font-size: 30px;
-  color: #FDFEFE ;
-  font-family: "Cabin Sketch", sans-serif;
+  color: #fdfefe;
+  font-family: 'Cabin Sketch', sans-serif;
 }
 
-#header2{
+#header2 {
   font-size: 40px;
-  color: #FDFEFE ;
-  font-family: "Cabin Sketch", sans-serif;
+  color: #fdfefe;
+  font-family: 'Cabin Sketch', sans-serif;
 }
 
-#click1{
+#click1 {
   border: hidden;
-  background-color: #5499C7;
+  background-color: #5499c7;
   font-size: 20px;
   padding: 10px;
   border-radius: 25px;
   text-decoration: none;
-  color: #FDFEFE ;
+  color: #fdfefe;
   margin-bottom: 5%;
 }
-#click1:hover{
+#click1:hover {
   background-color: #36831f;
 }
 
-#click2{
+#click2 {
   border: hidden;
-  background-color: #5499C7;
+  background-color: #5499c7;
   font-size: 20px;
   padding: 10px;
   border-radius: 25px;
   text-decoration: none;
-  color: #FDFEFE ;
+  color: #fdfefe;
   margin-bottom: 5%;
-  
 }
 
-#click2:hover{
+#click2:hover {
   background-color: #36831f;
 }
 
-#paragraph{
+#paragraph {
   font-size: 25px;
-  color: #FDFEFE ;
+  color: #fdfefe;
 }
 
-#image1{
+#image1 {
   background-image: url(../IMG/school.JPG);
   position: absolute;
   margin-top: 6%;
@@ -270,7 +267,7 @@ h2 {
   border-bottom-left-radius: 10%;
 }
 
-#image2{
+#image2 {
   background-image: url(../IMG/summer.jpeg);
   position: absolute;
   margin-top: 6%;
@@ -281,7 +278,7 @@ h2 {
   border-bottom-left-radius: 10%;
 }
 
-#image3{
+#image3 {
   background-image: url(../IMG/sum1.jfif);
   position: absolute;
   margin-top: 0;
@@ -292,7 +289,7 @@ h2 {
   border-bottom-left-radius: 10%;
 }
 
-#image4{
+#image4 {
   background-image: url(../IMG/sum2.jfif);
   position: absolute;
   margin-top: 0;
@@ -303,6 +300,124 @@ h2 {
   border-bottom-left-radius: 10%;
 }
 
-.button:hover{
-  background-color: #1ABC9C ;
+.button:hover {
+  background-color: #1abc9c;
+}
+
+#YunoHead {
+  background: #adcf93;
+  width: 1920px;
+  max-width: 100%;
+  height: 53rem;
+  margin: 0 auto;
+}
+
+.YunoHeadingText {
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+.YunoMission {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+
+p {
+  margin: 0rem;
+  font-size: 17px;
+}
+
+.style-link {
+  background: #fff;
+  font-size: 25px;
+  color: #333;
+  line-height: 3rem;
+  width: 12rem;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 60px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+#LogoYuno {
+  background-image: url(../IMAGES/wha.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 35rem;
+}
+
+.Logo2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0rem;
+  padding-top: 35rem;
+}
+
+.text-logo {
+  text-align: center;
+  padding-top: 1rem;
+  color: black;
+}
+
+.b1,
+.b2,
+.b3 {
+  background-color: rgb(86, 150, 86);
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  width: 18rem;
+  height: 4rem;
+  border-radius: 1rem;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.nav-bar {
+  width: 60rem;
+  margin-left: 29rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(86, 150, 86);
+}
+
+.nav-bar {
+  border-radius: 2.5rem;
+}
+.hometext {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding-left: 2.8rem;
+  font: 1em sans-serif;
+}
+
+h4 {
+  margin-left: 30%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.Curious {
+  font-style: initial;
+  color: rgb(19, 71, 19);
+}
+
+.p {
+  margin-top: 2rem;
+}
+
+.HeadingText {
+  font-size: 2rem;
 }
