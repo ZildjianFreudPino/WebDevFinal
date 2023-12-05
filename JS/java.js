@@ -10,7 +10,7 @@ images[2] = "../Pcs/photo2.jpg";
 
 function changeImg() {
   container.style.opacity = "1";
-  imgContainer.style.transition = "opacity 1s ease-in-out"; // Adjusted transition properties
+  imgContainer.style.transition = "opacity 1s ease-in-out";
   imgContainer.style.opacity = "1";
   imgContainer.src = images[i];
 

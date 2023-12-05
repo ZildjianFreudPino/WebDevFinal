@@ -1,18 +1,20 @@
 body {
   margin: 0px;
   color: #fff;
+  background-image: url(../Pcs/seamless-texture-white-brick-cement-wall-rough-surface-with-space-text-backgroundx9_661047-1629.avif);
+
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Happy Monkey", cursive;
+  font-family: "Sedgwick Ave Display", cursive;
 }
 
 ul {
   list-style: none;
   background: #5d7d3c;
-  text-align: left;
+  text-align: center;
   position: relative;
   width: 1050px;
   margin: 20px auto 24px;
@@ -20,17 +22,16 @@ ul {
   padding-left: 50px;
   margin-bottom: 5px;
 }
+.nav:hover {
+  color: #3d5526;
+  transition-duration: 0.3s;
+}
 
 #nav {
   background-color: rgb(96, 192, 96);
   border-radius: 45px;
   background-size: cover;
   padding-right: 52px;
-}
-
-#nav:hover {
-  background-color: #3d5526;
-  transition-duration: 0.2s;
 }
 
 ul li {
@@ -141,9 +142,137 @@ h2 {
   border-radius: 0px 0px 0px 80px;
   margin-left: 60%;
   background-size: cover;
-  height: 730px;
-  width: 550px;
+  height: 78%;
+  width: 30%;
 }
-#container{
+#container {
   transition: all 0.3s;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;  
+}
+.login-box {
+  position: relative;
+  width: 400px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  position: absolute;
+  inset: 2px;
+  z-index: 10;
+  display: flex;
+  background: #6d5656;
+  flex-direction: column;
+  backdrop-filter: blur(15px);
+  padding: 30px 30px;
+  font-family: "Sedgwick Ave Display", cursive;
+  border-radius:50px ;
+}
+.login {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  font-family: "Cabin Sketch", sans-serif;
+
+  width: 100%;
+
+
+}
+.input-box {
+  position: relative;
+  width: 310px;
+  margin: 30px 0;
+  border-bottom: 2px solid #fff;
+}
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: -5px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #fff;
+  padding: 0 35px 0 5px;
+}
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 57px;
+}
+.remember-forgot {
+  margin: -15px 0 15px;
+  font-size: 0.9em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.remember-forgot label input {
+  margin-right: 3px;
+}
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+.button {
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.register-link {
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover {
+  text-decoration: underline;
 }
