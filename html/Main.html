@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
-    <link rel="stylesheet" href="Home.Css">
+    <link rel="stylesheet" href="../css/Home.Css">
     <script src="https://kit.fontawesome.com/e4d4536112.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,22 +14,48 @@
 </head>
 
 <body>
-
-    <div id="image"></div>
-    <div>
-            <ul>
-                <li><a class="Nav" href="#">Home </a>
-                    <ul class="dropdown">
-                        <li><a href="educators.html">Educators</a></li>
-                    </ul>
-                </li>
-                <li><a href="Approach.html">Approach</a></li>
-                <li><a href="Programs.html">Programs</a></li>
-                <li><a href="Community.html">Community</a></li>
-                <li><a href="Admission.html">Admission</a></li>
-                <li><a href="Contact.Html">Contact Us</a></li>
-                <li><a id="nav"href="FamilyPortal.html">Family Portal</a></li>
+    <div id="container">
+        <img id="BgImage" name="images">
+    </div>
+    <div id="background">
+        <ul>
+            <li><a class="nav" href="#">Home </a>
+                <ul class="dropdown">
+                    <li><a class="box" href="#">Educators</a></li>
+                </ul>
+            </li>
+            <li><a class="nav" href="#">Approach</a>
+            <ul class="dropdown">
+                <li><a  class="box" href="#">Project Work</a></li>
             </ul>
+        </li>
+            <li><a class="nav" href="#">Programs</a>
+                <ul class="dropdown">
+                    <li><a  class="box" href="#">Pre-School Program</a></li>
+                    <li><a  class="box" href="#">Summer Camp</a></li>
+                </ul>
+            </li>
+            <li><a class="nav" href="#">Community</a>
+                <ul class="dropdown">
+                    <li><a  class="box" href="#">Families</a></li>
+                    <li><a  class="box" href="#">Natural Classroom</a></li>
+                    <li><a  class="box" href="#">Communit Partnership</a></li>
+                </ul></li>
+            <li><a class="nav" href="#">Admission</a>
+                <ul class="dropdown">
+                    <li><a  class="box" href="#">Registration Procedures and Tuition</a></li>
+                    <li><a  class="box" href="#">FAQ</a></li>
+                    <li><a  class="box" href="#">Testimonials</a></li>
+                    <li><a  class="box" href="#">Children's Form</a></li>
+                    <li><a  class="box" href="#">Tour Dates</a></li>
+                </ul></li>
+            <li><a class="nav" href="#">Contact Us</a>
+                <ul class="dropdown">
+                    <li><a  class="box" href="#">Pre-School Program</a></li>
+                    <li><a  class="box" href="#">Summer Camp</a></li>
+                </ul></li>
+            <li><a class="nav" id="nav" href="#">Family Portal</a></li>
+        </ul>
         </nav>
     </div>
 
@@ -45,10 +71,11 @@
         <i class="fa-brands fa-yelp" style="color: brown;""></i>
     </div>
     <div id="class">
-        <img src="Pcs/Capture-removebg-preview.png">
+            <img src="../Pcs/Capture-removebg-preview.png">
     </div>
 
-    <div>
+
+    <div id="Msg">
         <h1>COLLABORATION</h1>
         <div id="poem">
             <p> "We are exploring together. We are cultivating a garden together,
@@ -61,5 +88,6 @@
     </div>
     </div>
 </body>
+<script src="../JS/java.js"></script>
 
 </html>
