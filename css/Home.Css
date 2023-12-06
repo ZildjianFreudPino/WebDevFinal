@@ -276,3 +276,160 @@ form {
 .register-link p a:hover {
   text-decoration: underline;
 }
+
+#container{
+  color: #ffffff;
+  text-align: center;
+  font-family: comic sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 45%;
+}
+
+#color{
+  background-color: #5499C7;
+}
+
+#section1{
+  border: hidden;
+  border-radius: 25px;
+  padding: 25px;
+  float: left;
+  background-color: #FDFEFE;
+  width: 13%;
+  margin-left: 30%;
+  top: 230px;
+  height: 20%;
+  position: sticky;
+  color: #000000;
+  padding-bottom: 5%;
+  margin-top: 5%;
+}
+
+#section2{
+  border: hidden;
+  border-radius: 25px;
+  padding: 25px;
+  float: right;
+  background-color: #FDFEFE;
+  width: 13%;
+  margin-right: 10%;
+  top: 230px; 
+  height: 20%;
+  position: sticky;
+  color: #000000;
+  padding-bottom: 9%;
+  margin-top: 5%;
+}
+
+.content1{
+  font-size: 20px;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+#content2{
+  font-size: 20px;
+  font-family: "Sedgwick Ave Display", cursive;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.header{
+  font-size: 30px;
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+#header1{
+  font-size: 30px;
+  color: #FDFEFE ;
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+#header2{
+  font-size: 40px;
+  color: #FDFEFE ;
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+#click1{
+  border: hidden;
+  background-color: #5499C7;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FDFEFE ;
+  margin-bottom: 5%;
+}
+#click1:hover{
+  background-color: #36831f;
+}
+
+#click2{
+  border: hidden;
+  background-color: #5499C7;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FDFEFE ;
+  margin-bottom: 5%;
+  
+}
+
+#click2:hover{
+  background-color: #36831f;
+}
+
+#paragraph{
+  font-size: 25px;
+  color: #FDFEFE ;
+}
+
+#image1{
+  background-image: url(../IMG/school.JPG);
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 10%;
+  background-size: cover;
+  height: 500px;
+  width: 450px;
+  border-bottom-left-radius: 10%;
+}
+
+#image2{
+  background-image: url(../IMG/summer.jpeg);
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 45%;
+  background-size: cover;
+  height: 500px;
+  width: 450px;
+  border-bottom-left-radius: 10%;
+}
+
+#image3{
+  background-image: url(../IMG/sum1.jfif);
+  position: absolute;
+  margin-top: 0;
+  margin-left: 10%;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  border-bottom-left-radius: 10%;
+}
+
+#image4{
+  background-image: url(../IMG/sum2.jfif);
+  position: absolute;
+  margin-top: 0;
+  margin-left: 30%;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  border-bottom-left-radius: 10%;
+}
+
+.button:hover{
+  background-color: #1ABC9C ;
+}
