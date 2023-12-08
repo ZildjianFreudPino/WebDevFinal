@@ -21,12 +21,12 @@ ul {
   padding-left: 50px;
   margin-bottom: 5px;
 }
-.nav:hover {
-  color: #3d5526;
+#nav1:hover {
+  background-color: #3d5526;
   transition-duration: 0.3s;
 }
 
-#nav {
+#nav1 {
   background-color: rgb(96, 192, 96);
   border-radius: 45px;
   background-size: cover;
@@ -90,13 +90,13 @@ li:hover ul.dropdown {
   color: #000;
 }
 
-#class {
+#logo1 {
   display: inline-block;
   margin-left: 400px;
 }
 
-h1 {
-  font-family: 'Cabin Sketch', sans-serif;
+#intro-header {
+  font-family: "Cabin Sketch", sans-serif;
   font-size: 80px;
   color: rgb(0, 0, 0);
   margin-left: 380px;
@@ -108,7 +108,6 @@ h1 {
   margin-right: 50%;
   font-family: 'Sedgwick Ave Display', cursive;
   color: black;
-  margin-top: 20px;
 }
 
 h2 {
@@ -143,28 +142,76 @@ h2 {
   background-size: cover;
   height: 78%;
   width: 30%;
+  }
+#img-body {
+  padding-top: 100px;
+  position: relative;
+  margin-left: 18%;
 }
-#container {
-  transition: all 0.3s;
+#img1 {
+  position: relative;
+  margin-top: 0;
+  padding-right: 25px;
+  background-size: cover;
+  height: 280px;
+  width: 280px;
+  border-bottom-left-radius: 20%;
 }
-
+#img2 {
+  margin-top: 0;
+  position: relative;
+  background-size: cover;
+  height: 280px;
+  width: 280px;
+  border-bottom-left-radius: 10%;
+}
+#container3 {
+  width: 1920px;
+  max-width: 100%;
+  margin: -181px auto 0;
+  background-color: #5499c7;
+  padding-top: 340px;
+}
+#intro-body {
+  margin-right: 40%;
+}
+#header1 {
+  font-size: 30px;
+  color: #fdfefe;
+  font: 400 26px/100% "Happy Monkey", cursive;
+  margin-left: 45%;
+}
+#header2 {
+  font-size: 45px;
+  color: #fdfefe;
+  font-family: "Cabin Sketch", sans-serif;
+  margin-left: 32%;
+}
+#content2 {
+  font-size: 20px;
+  font-family: "Sedgwick Ave Display", cursive;
+  margin-left: 22%;
+  margin-right: 22%;
+  text-align: center;
+  padding-bottom: 50px;
+}
 #poem2 {
   color: rgb(0, 0, 0);
   text-align: center;
   font-family: comic sans-serif;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 45%;
+  padding-bottom: 10%;
 }
+.header {
+  font-size: 30px;
+  font-family: "Cabin Sketch", sans-serif;
 
-#color {
-  background-color: #5499c7;
+  padding-bottom: 18px;
 }
-
 #section1 {
-  border: hidden;
   border-radius: 25px;
-  padding: 25px;
+  padding: 26px;
   float: left;
   background-color: #fdfefe;
   width: 13%;
@@ -173,57 +220,30 @@ h2 {
   height: 20%;
   position: sticky;
   color: #000000;
-  padding-bottom: 5%;
-  margin-top: 5%;
+  padding-bottom: 4%;
 }
-
-#section2 {
-  border: hidden;
-  border-radius: 25px;
-  padding: 25px;
-  float: right;
-  background-color: #fdfefe;
-  width: 13%;
-  margin-right: 10%;
-  top: 230px;
-  height: 20%;
-  position: sticky;
-  color: #000000;
-  padding-bottom: 9%;
-  margin-top: 5%;
+#image1 {
+  background-image: url(../Pcs/school.JPG);
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 12%;
+  background-size: cover;
+  height: 400px;
+  width: 440px;
+  border-bottom-left-radius: 10%;
 }
-
 .content1 {
   font-size: 20px;
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
+  margin-bottom: 20%;
 }
-
-#content2 {
+.content2 {
   font-size: 20px;
-  font-family: 'Sedgwick Ave Display', cursive;
-  margin-left: 15%;
-  margin-right: 15%;
+  font-family: "Sedgwick Ave Display", cursive;
+  margin-bottom: 20%;
+  padding-bottom: 100px;
 }
-
-.header {
-  font-size: 30px;
-  font-family: 'Cabin Sketch', sans-serif;
-}
-
-#header1 {
-  font-size: 30px;
-  color: #fdfefe;
-  font-family: 'Cabin Sketch', sans-serif;
-}
-
-#header2 {
-  font-size: 40px;
-  color: #fdfefe;
-  font-family: 'Cabin Sketch', sans-serif;
-}
-
 #click1 {
-  border: hidden;
   background-color: #5499c7;
   font-size: 20px;
   padding: 10px;
@@ -231,11 +251,25 @@ h2 {
   text-decoration: none;
   color: #fdfefe;
   margin-bottom: 5%;
-}
-#click1:hover {
-  background-color: #36831f;
+  margin-top: 10px;
 }
 
+#click1:hover {
+  background-color: #36831f;
+  transition-duration: 0.2s;
+}
+#section2 {
+  border-radius: 25px;
+  padding: 26px;
+  background-color: #fdfefe;
+  width: 13%;
+  margin-left: 70%;
+  top: 230px;
+  height: 20%;
+  position: sticky;
+  color: #000000;
+  padding-bottom: 4%;
+}
 #click2 {
   border: hidden;
   background-color: #5499c7;
@@ -249,6 +283,7 @@ h2 {
 
 #click2:hover {
   background-color: #36831f;
+  transition-duration: 0.2s;
 }
 
 #paragraph {
@@ -256,47 +291,14 @@ h2 {
   color: #fdfefe;
 }
 
-#image1 {
-  background-image: url(../IMG/school.JPG);
-  position: absolute;
-  margin-top: 6%;
-  margin-left: 10%;
-  background-size: cover;
-  height: 500px;
-  width: 450px;
-  border-bottom-left-radius: 10%;
-}
-
 #image2 {
-  background-image: url(../IMG/summer.jpeg);
+  background-image: url(../Pcs/summer.jpeg);
   position: absolute;
   margin-top: 6%;
   margin-left: 45%;
   background-size: cover;
   height: 500px;
   width: 450px;
-  border-bottom-left-radius: 10%;
-}
-
-#image3 {
-  background-image: url(../IMG/sum1.jfif);
-  position: absolute;
-  margin-top: 0;
-  margin-left: 10%;
-  background-size: cover;
-  height: 250px;
-  width: 250px;
-  border-bottom-left-radius: 10%;
-}
-
-#image4 {
-  background-image: url(../IMG/sum2.jfif);
-  position: absolute;
-  margin-top: 0;
-  margin-left: 30%;
-  background-size: cover;
-  height: 250px;
-  width: 250px;
   border-bottom-left-radius: 10%;
 }
 
@@ -344,7 +346,7 @@ p {
 }
 
 #LogoYuno {
-  background-image: url(../IMAGES/wha.png);
+  background-image: url(../Pcs/wha.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -368,29 +370,29 @@ p {
 .b1,
 .b2,
 .b3 {
-  background-color: rgb(86, 150, 86);
-  color: rgb(255, 255, 255);
+  background-color: rgb(231, 248, 216);
+  color: rgb(0, 0, 0);
   margin: 5px;
   width: 18rem;
   height: 4rem;
   border-radius: 1rem;
   display: inline-block;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  margin-top: 2rem;
+  padding-top: 10px;
+  font-family: "Happy Monkey", cursive;
 }
 
 .nav-bar {
-  width: 60rem;
+  font-family: "Cabin Sketch", sans-serif;
+  width: 57.5rem;
   margin-left: 29rem;
   margin-top: 3rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   background-color: rgb(86, 150, 86);
-}
-
-.nav-bar {
   border-radius: 2.5rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nav-bar:hover {
+  color: #3d5526;
 }
 .hometext {
   font-size: 18px;
@@ -399,9 +401,11 @@ p {
   padding-left: 2.8rem;
   font: 1em sans-serif;
 }
-
+.hometext:hover {
+  color: #36831f;
+  transition-duration: 0.2s;
+}
 h4 {
-  margin-left: 30%;
   text-align: left;
   color: rgb(0, 0, 0);
   font-size: 15px;
@@ -420,4 +424,28 @@ h4 {
 
 .HeadingText {
   font-size: 2rem;
+}
+#desc-bottom {
+  margin: 0%;
+  display: flex;
+  justify-content: space-around;
+  color: #000;
+  padding: 20px 0px 13px 0px;
+}
+#nav2:hover {
+  background-color: #3d5526;
+  transition-duration: 0.3s;
+}
+
+#nav2 {
+  background-color: rgb(96, 192, 96);
+  border-radius: 45px;
+  background-size: contain;
+  padding-top: 30px;
+  padding-right: 77px;
+  padding-bottom: 33px;
+}
+.fa-solid fa-globe {
+  text-align: left;
+  font-size: 5px;
 }
