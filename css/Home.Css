@@ -32,6 +32,10 @@ ul {
   background-size: cover;
   padding-right: 52px;
 }
+.nav:hover{
+  color:#6fa53c;  
+  transition-duration: 0.5s;
+}
 
 ul li {
   display: inline-block;
@@ -225,8 +229,9 @@ h2 {
 #image1 {
   background-image: url(../Pcs/school.JPG);
   position: absolute;
-  margin-top: 3%;
-  margin-left: 12%;
+  top:190%; 
+  left: 22%; 
+  transform: translate(-12%, -50%); 
   background-size: cover;
   height: 400px;
   width: 440px;
@@ -256,7 +261,7 @@ h2 {
 
 #click1:hover {
   background-color: #36831f;
-  transition-duration: 0.2s;
+  transition-duration: 0.5s;
 }
 #section2 {
   border-radius: 25px;
@@ -283,7 +288,7 @@ h2 {
 
 #click2:hover {
   background-color: #36831f;
-  transition-duration: 0.2s;
+  transition-duration: 0.5s;
 }
 
 #paragraph {
@@ -294,11 +299,11 @@ h2 {
 #image2 {
   background-image: url(../Pcs/summer.jpeg);
   position: absolute;
-  margin-top: 6%;
-  margin-left: 45%;
-  background-size: cover;
-  height: 500px;
-  width: 450px;
+  margin-top: 3%;
+  margin-left:45%;
+  background-size: contain;
+  height: 400px;
+  width: 440px;
   border-bottom-left-radius: 10%;
 }
 
@@ -344,7 +349,11 @@ p {
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
-
+.style-link:hover{
+  background: #5499c7;
+  color: #fff;
+  transition-duration: 0.5s;
+}
 #LogoYuno {
   background-image: url(../Pcs/wha.png);
   background-size: 100%;
@@ -365,41 +374,56 @@ p {
   text-align: center;
   padding-top: 1rem;
   color: black;
+
 }
 
 .b1,
 .b2,
 .b3 {
-  background-color: rgb(231, 248, 216);
+  background-color: #f1f7ed;
   color: rgb(0, 0, 0);
-  margin: 5px;
-  width: 18rem;
+  margin: 0%;
+  width: 20rem;
   height: 4rem;
   border-radius: 1rem;
   display: inline-block;
   padding-top: 10px;
   font-family: "Happy Monkey", cursive;
+  text-align: center;
+  padding-left: 10px;
+  
 }
-
+#b1-photo{
+  position: absolute;
+  left: 25%;
+}
+#b2-photo{
+  position: absolute;
+  left: 41%;
+}
+#b3-photo{
+  position: absolute;
+  left: 58%;
+}
 .nav-bar {
-  font-family: "Cabin Sketch", sans-serif;
-  width: 57.5rem;
+  width: 62.5rem;
   margin-left: 29rem;
   margin-top: 3rem;
   background-color: rgb(86, 150, 86);
   border-radius: 2.5rem;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 32px;
 }
 .nav-bar:hover {
   color: #3d5526;
+  transition-duration: 0.5s;
 }
 .hometext {
   font-size: 18px;
   color: white;
   text-decoration: none;
   padding-left: 2.8rem;
-  font: 1em sans-serif;
+  font-family: 'Sedgwick Ave Display', cursive;
 }
 .hometext:hover {
   color: #36831f;
