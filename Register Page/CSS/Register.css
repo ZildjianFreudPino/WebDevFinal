@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  height: 100vh;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../IMG/bbc-creative-1w20Cysy1cg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: #ffff;
+  padding: 30px 50px;
+  border-radius: 5px;
+}
+
+.container .title {
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+}
+
+.container .title::before {
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(
+    179.1deg,
+    rgb(43, 170, 96) 2.3%,
+    rgb(129, 204, 104) 98.3%
+  );
+}
+
+.container form .details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .details .inputbox {
+  margin: 20px 0 12px 0;
+  width: calc(100% / 2 - 20px);
+}
+
+.details .inputbox input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+}
+
+form .button input {
+  margin-top: 2.5rem;
+  height: 2.5rem;
+  width: 45rem;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 1px solid #85cc82;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  background-color: rgb(71, 190, 87);
+}
+
+h7 {
+  font-size: 35px;
+}
+
+@media (max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+
+  body {
+    display: flex;
+    height: 120vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../IMG/bbc-creative-1w20Cysy1cg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  form .details .inputbox {
+    margin: 15px;
+    width: 195%;
+  }
+
+  .container form .details {
+    max-width: 100%;
+  }
+
+  form .button input {
+    max-width: 100%;
+  }
+}
