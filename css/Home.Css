@@ -7,7 +7,10 @@ body {
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+#bar{
+  display: none;
 }
 
 ul {
@@ -32,8 +35,8 @@ ul {
   background-size: cover;
   padding-right: 52px;
 }
-.nav:hover{
-  color:#6fa53c;  
+.nav:hover {
+  color: #6fa53c;
   transition-duration: 0.5s;
 }
 
@@ -43,12 +46,12 @@ ul li {
 }
 
 ul li a {
-  display: block;
   padding: 20px 25px;
   font-size: 20px;
   color: #fff;
   text-decoration: none;
-  text-align: center;
+  display: flex;
+  
 }
 
 ul li ul.drop-down li {
@@ -110,7 +113,7 @@ li:hover ul.dropdown {
 #poem {
   margin-left: 380px;
   margin-right: 50%;
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
   color: black;
 }
 
@@ -128,7 +131,7 @@ h2 {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
   margin-left: 370px;
   margin-top: 20px;
 }
@@ -146,7 +149,7 @@ h2 {
   background-size: cover;
   height: 78%;
   width: 30%;
-  }
+}
 #img-body {
   padding-top: 100px;
   position: relative;
@@ -220,23 +223,22 @@ h2 {
   background-color: #fdfefe;
   width: 13%;
   margin-left: 30%;
-  top: 230px;
   height: 20%;
-  position: sticky;
+  position: relative;
   color: #000000;
   padding-bottom: 4%;
 }
+
 #image1 {
-  background-image: url(../Pcs/school.JPG);
   position: absolute;
-  top:190%; 
-  left: 22%; 
-  transform: translate(-12%, -50%); 
-  background-size: cover;
+  margin-top: 3%;
+  left: 20%;
+  background-size: contain;
   height: 400px;
-  width: 440px;
+  width: 400px;
   border-bottom-left-radius: 10%;
 }
+
 .content1 {
   font-size: 20px;
   font-family: "Sedgwick Ave Display", cursive;
@@ -246,7 +248,7 @@ h2 {
   font-size: 20px;
   font-family: "Sedgwick Ave Display", cursive;
   margin-bottom: 20%;
-  padding-bottom: 100px;
+padding-bottom: 60px;
 }
 #click1 {
   background-color: #5499c7;
@@ -275,6 +277,7 @@ h2 {
   color: #000000;
   padding-bottom: 4%;
 }
+
 #click2 {
   border: hidden;
   background-color: #5499c7;
@@ -297,11 +300,10 @@ h2 {
 }
 
 #image2 {
-  background-image: url(../Pcs/summer.jpeg);
   position: absolute;
   margin-top: 3%;
-  margin-left:45%;
-  background-size: contain;
+  left: 52%;
+  background-size: cover;
   height: 400px;
   width: 440px;
   border-bottom-left-radius: 10%;
@@ -349,7 +351,7 @@ p {
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
-.style-link:hover{
+.style-link:hover {
   background: #5499c7;
   color: #fff;
   transition-duration: 0.5s;
@@ -374,7 +376,6 @@ p {
   text-align: center;
   padding-top: 1rem;
   color: black;
-
 }
 
 .b1,
@@ -391,17 +392,16 @@ p {
   font-family: "Happy Monkey", cursive;
   text-align: center;
   padding-left: 10px;
-  
 }
-#b1-photo{
+#b1-photo {
   position: absolute;
   left: 25%;
 }
-#b2-photo{
+#b2-photo {
   position: absolute;
   left: 41%;
 }
-#b3-photo{
+#b3-photo {
   position: absolute;
   left: 58%;
 }
@@ -423,7 +423,7 @@ p {
   color: white;
   text-decoration: none;
   padding-left: 2.8rem;
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: "Sedgwick Ave Display", cursive;
 }
 .hometext:hover {
   color: #36831f;
@@ -472,4 +472,230 @@ h4 {
 .fa-solid fa-globe {
   text-align: left;
   font-size: 5px;
+}
+@media(max-width:1800px){
+  #image1{
+    left: 15%;
+  }
+  #section1{
+    width: 15% ;
+    margin-left: 25%;
+  }
+  #section2{
+    width: 15%;
+    margin-left: 76%;
+  }
+#container3{
+  padding-right: 10%;
+
+}
+}
+
+
+@media (max-width: 1360px) {
+  ul li a {
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+
+  }
+  nav{
+    align-items: center;
+    margin-left: 18%;
+  }
+ #nav1{
+  padding-right: 66px;
+  background-color: rgb(96, 192, 96);
+  padding-left: 60px;
+ }
+  ul{
+    width: 1000px;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    border-radius: 100px;
+  }
+  #Icons {
+    padding-top: 20px;
+    left: 200px;
+    font-size: 50px;
+  }
+  #BgImage {
+    top: 0;
+    margin-left: 80%;
+    height: 78%;
+    width: 30%;
+  }
+  #logo1 {
+    display: inline-block;
+    margin-left: 300px;
+  }
+  #intro-header {
+    font-size: 90px;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  #poem {
+    margin-left: 200px;
+    margin-right: 40%;
+    font-size: 30px;
+  }
+  #intro-poem{
+    font-size: 20px;
+  }
+  #Apply {
+    width: 248px;
+    font-size: 24px;
+    line-height: 62px;
+    border-radius: 45px;
+    margin-left: 50%;
+    margin-top: 20px;
+  }
+  #img-body {
+    padding-top: 100px;
+    position: relative;
+    margin-left: 25%;
+  }
+  #img1{
+    border-radius: 10%;
+  }
+  #img2 {
+    border-radius: 10%;
+    margin-left: 250px;
+  }
+  #container3 {
+    width: 150%;
+    padding-right: 300px;
+    padding-top: 340px;
+  }
+  #header1{
+    font-size: 35px;
+  }
+  #header2{
+    font-size: 60px;
+  }
+  #content2{
+    font-size: 25px;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+
+
+
+}
+@media(max-width: 1280px){
+  ul li a{
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #nav1{
+    padding-top: 66px;
+    background-color: rgb(96, 192, 96);
+    padding-bottom: 60px;
+  }
+  ul{
+    border-radius: 0;
+    margin: 0%;
+
+  }
+  nav{
+    align-items: center;
+    margin-left: 0%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-around;
+    width: 1500px;
+
+  }
+  #Icons {
+    padding-top: 20px;
+    left: 200px;
+    font-size: 50px;
+
+  }
+  #BgImage {
+    margin-left: 85%;
+    height: 85%;
+    width: 35%;
+  }
+}
+@media(max-width: 1000px){
+  ul li a{
+    font-size: 35px;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  #nav1{
+    text-align: center;
+  }
+  nav{
+    background: #5d7d3c;
+    margin: 0;
+  }
+  .nav{
+    border: #fff 1px solid;
+    padding-left:100px;
+    padding-right: 100px;
+
+
+  }
+  #nav1{
+    padding: 20px 30px 20px 30px;
+    border: 1px;
+    border-radius: 0px;
+    padding-left:100px;
+    padding-right: 100px;
+    
+  }
+}
+@media(max-width: 800px){
+  ul li a{
+    font-size: 50px;
+    flex-wrap: wrap;  
+  }
+  #nav1{
+    text-align: center;
+  }
+  nav{
+    background: #5d7d3c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .nav{
+    border: #fff 1px solid;
+    padding-left:100px;
+    padding-right: 100px;
+
+
+  }
+  #nav1{
+    padding: 20px 30px 20px 30px;
+    border: 1px;
+    border-radius: 0px;
+    padding-left:100px;
+    padding-right: 100px;
+    
+  }
+}
+@media(max-width:400px){
+#bar{
+display: block;
+background-image: url(../Pcs/bar-removebg-preview.png);
+align-items: center;
+background-size: contain;
+height: 300px;
+position: relative;
+top: 100px;
+left: 140%;
+cursor: pointer;
+}
+  
+
+nav{
+  display: none;
+}
 }
