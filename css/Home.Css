@@ -105,12 +105,12 @@ li:hover ul.dropdown {
   font-family: "Cabin Sketch", sans-serif;
   font-size: 80px;
   color: rgb(0, 0, 0);
-  margin-left: 380px;
+  margin-left: 20%;
   margin-top: 50px;
 }
 
 #poem {
-  margin-left: 380px;
+  margin-left: 20%;
   margin-right: 50%;
   font-family: "Sedgwick Ave Display", cursive;
   color: black;
@@ -375,8 +375,8 @@ p {
   text-align: center;
   padding-top: 1rem;
   color: black;
+  margin: auto;
 }
-
 #adress {
   display: flex;
   flex-direction: row;
@@ -388,7 +388,7 @@ p {
 .b3 {
   background-color: #f1f7ed;
   color: rgb(0, 0, 0);
-  margin: 10px auto;
+  margin: auto;
   width: 25%;
   height: 4rem;
   border-radius: 1rem;
@@ -525,7 +525,7 @@ h4 {
   }
   #intro-header {
     font-size: 90px;
-    margin-left: 200px;
+    margin-left:15%;
     margin-top: 50px;
   }
   #poem {
@@ -580,50 +580,87 @@ h4 {
 @media (max-width: 1280px) {
   ul li a {
     font-size: 30px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #nav1 {
-    padding-top: 66px;
-    background-color: rgb(96, 192, 96);
-    padding-bottom: 60px;
-  }
-  ul {
-    border-radius: 0;
-    margin: 0%;
   }
   nav {
     align-items: center;
-    margin-left: 0%;
     margin-top: 0%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+    width: 96.4%;
+  }
+  #nav1 {
+    padding-right: 66px;
+    background-color: rgb(96, 192, 96);
+  }
+  ul {
+    padding: 20px 20px 20px;
+    border-radius: 0;
+  }
+ 
+  #logo1 {
+    margin-left: 5%;
+  }
+  #intro-header {
+    margin-left: 5%;
+  }
+  #poem {
+    margin-left: 5%;
   }
   #BgImage {
-    left: -15%;
+    left: -2%;
     top: 25%;
     height: 78%;
     width: 32%;
-    border-bottom-right-radius: 80px;
+   border-radius: 80px;
     position: absolute;
   }
   #Icons {
-    display: flex;
     align-items: center;
     padding-top: 20px;
     left: 50px;
   }
-
-  
   #Icons i {
-    margin-right: 5%; 
+    margin-right: 5%;
     font-size: 90px;
   }
-  #BgImage {
-    margin-left: 85%;
-    height: 85%;
-    width: 35%;
+
+  #img1 {
+    border-radius: 10%;
+    right: 100px;
+    top: 110px;
+  }
+  #img2 {
+    border-radius: 10%;
+    margin-left: 100px;
+    top: 110px;
+  }
+  #image1 {
+    left: 6%;
+    height: 450px;
+    width: 300px;
+    border-top-left-radius: 10%;
+  }
+  #image2 {
+    left: 49%;
+    height: 450px;
+    width: 300px;
+    border-top-left-radius: 10%;
+  }
+  .text-logo {
+    font-size: 20px;
+  }
+
+  #adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .b1,
+  .b2,
+  .b3 {
+    padding-bottom: 10px;
+    width: 40%;
+  }
+  .nav-bar {
+    display: none;
   }
 }
 @media (max-width: 1000px) {
@@ -651,47 +688,32 @@ h4 {
     padding-left: 100px;
     padding-right: 100px;
   }
-}
-@media (max-width: 800px) {
-  ul li a {
-    font-size: 50px;
-    flex-wrap: wrap;
-  }
-  #nav1 {
-    text-align: center;
-  }
-  nav {
-    background: #5d7d3c;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .nav {
-    border: #fff 1px solid;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  #nav1 {
-    padding: 20px 30px 20px 30px;
-    border: 1px;
-    border-radius: 0px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
-@media (max-width: 400px) {
-  #bar {
-    display: block;
-    background-image: url(../Pcs/bar-removebg-preview.png);
-    align-items: center;
-    background-size: contain;
-    height: 300px;
-    position: relative;
-    top: 100px;
-    left: 140%;
-    cursor: pointer;
-  }
-
-  nav {
+  #BgImage{
     display: none;
+  }
+  #img1 {
+    border-radius: 10%;
+    right: 200px;
+    top: 110px;
+  }
+  #img2 {
+    border-radius: 10%;
+    margin-left: 50px;
+    top: 110px;
+  }
+  #image1{
+    display: none;
+  }
+  #image2{
+    display: none;
+  }
+  #section1 {
+    width: 30%;
+    margin-left: 15%;
+  }
+  #section2 {
+    width: 30%;
+    margin-left: 60%;
+    padding-bottom: 12%;
   }
 }
