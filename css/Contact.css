@@ -1,0 +1,335 @@
+body {
+  background: #fffff8;
+  margin: 0%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+nav {
+  background-color: #367734;
+  margin: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+#img1 {
+  position: absolute;
+  margin-left: 60%;
+  border-radius: 30px;
+}
+a {
+  text-decoration: none;
+  font-size: 50px;
+  color: rgb(219, 218, 218);
+  margin-left: 0px;
+  padding-left: 10px;
+}
+#title-page {
+  display: inline-block;
+  margin-left: 36%;
+  color: rgb(219, 218, 218);
+  font-size: 50px;
+  font-family: "Cabin Sketch", sans-serif;
+}
+
+#Icons {
+  padding-top: 20px;
+  position: relative;
+  left: 380px;
+  font-size: 45px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+#logo1 {
+  display: inline-block;
+  margin-left: 400px;
+}
+#contact {
+  font-family: "Cabin Sketch", sans-serif;
+  font-size: 70px;
+  margin-left: 20%;
+  margin-top: 4%;
+}
+#nav2 {
+  position: relative;
+  top: 250px;
+  background-color: #367734;
+  text-align: center;
+  font-family: "Cabin Sketch", sans-serif;
+  color: rgb(219, 218, 218);
+  font-size: 50px;
+}
+#poem-cont {
+  position: relative;
+  margin-top: 20%;
+  font-size: 22px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+#poem-tail {
+  text-align: center;
+  font-family: "Cabin Sketch", sans-serif;
+  color: #0488a0;
+  padding-top: 30px;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+#poem-feet {
+  padding-bottom: 40px;
+}
+#container {
+  background-color: #fff;
+  padding-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  border: #b1afaf 2px solid;
+  padding-bottom: 50px;
+}
+#header {
+  text-align: center;
+  font-family: "Cabin Sketch", sans-serif;
+  color: #0488a0;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.Name {
+  margin-left: 5%;
+  font-family: "Cabin Sketch", sans-serif;
+  color: #000000;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#input1 {
+  margin-left: 3%;
+  width: 42%;
+  font-size: 20px;
+  color: #adabab;
+  height: 43px;
+  padding: 15px;
+}
+#input2 {
+  margin-right: 2%;
+  width: 42%;
+  font-size: 20px;
+  color: #adabab;
+  height: 43px;
+  padding: 15px;
+  margin-left: 1%;
+}
+#adress1 {
+  margin-left: 3%;
+  width: 91%;
+  font-size: 20px;
+  color: #adabab;
+  height: 43px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#input3 {
+  margin-left: 3%;
+  width: 42%;
+  font-size: 20px;
+  color: #adabab;
+  height: 43px;
+  padding: 15px;
+}
+#Name {
+  position: relative;
+  display: inline-block;
+  top: -70px;
+}
+#input4 {
+  margin-right: 2%;
+  width: 41%;
+  font-size: 20px;
+  color: #adabab;
+  height: 43px;
+  padding: 15px;
+  left: 50%;
+  top: -77px;
+  position: relative;
+}
+#name {
+  top: -77px;
+  position: relative;
+  margin-left: 5%;
+  font-family: "Cabin Sketch", sans-serif;
+  color: #000000;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#comment {
+  margin-left: 3%;
+  width: 91%;
+  font-size: 20px;
+  color: #adabab;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  top: -77px;
+}
+#BUTTON {
+  margin-left: 3%;
+  width: 91%;
+  font-size: 20px;
+  background-color: #5e8dba;
+  height: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+}
+#logo-cm {
+  margin-left: 33%;
+  padding-top: 10%;
+}
+.text-logo {
+  text-align: center;
+  padding-top: 1rem;
+  color: black;
+  margin: auto;
+  font-size: 20px;
+}
+#adress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.b1,
+.b2,
+.b3 {
+  background-color: #f1f7ed;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  width: 25%;
+  height: 4rem;
+  border-radius: 1rem;
+  display: inline-block;
+  padding-top: 10px;
+  font-family: "Happy Monkey", cursive;
+  text-align: center;
+  padding-left: 10px;
+}
+.list {
+  display: inline-block;
+}
+@media (max-width: 1600px) {
+  #img1 {
+    margin-left: 70%;
+  }
+}
+@media (max-width: 1440px) {
+    #img1 {
+        margin-left: 70%;
+        height: 600px;
+        width: 300px;
+      }
+  #Icons {
+    padding-top: 20px;
+    position: relative;
+    left: 10%;
+    font-size: 45px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+  }
+  #logo1 {
+    display: inline-block;
+    margin-left: 15%;
+  }
+  #title-page {
+    margin-left: 25%;
+  }
+  #contact {
+    font-family: "Cabin Sketch", sans-serif;
+    font-size: 70px;
+    margin-left: 20%;
+    margin-top: 4%;
+  }
+  #nav2 {
+    text-align: 20%;
+  }
+}
+@media (max-width: 1024px) {
+    #img1{
+        display: none;
+
+    }
+  #logo1 {
+    margin-left: 23%;
+  }
+  #Icons {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    left: 100px;
+  }
+  #Icons i {
+    margin-right: 5%;
+    font-size: 90px;
+  }
+  #contact {
+    font-size: 70px;
+    margin-left: 30%;
+    margin-top: 4%;
+  }
+  #poem-cont {
+    padding-top: 10%;
+  }
+}
+@media(max-width:768px){
+    #Icons {
+        left: 150px;
+      }
+      #Icons i {
+
+        font-size: 50px;
+      }
+     
+    #logo1 {
+        margin-left: 1%;
+        width: 400px;
+      }
+      #contact {
+        font-size: 70px;
+        margin-left: 20%;
+        margin-top: 4%;
+      }
+    #poem-cont {
+        padding-top: 20%;
+      }
+      #logo-cm {
+       display: none;
+      }
+      #adress {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .b1,
+      .b2,
+      .b3 {
+        padding-bottom: 10px;
+        width: 40%;
+      }
+      .text-logo {
+        text-align: center;
+        padding-top: 1rem;
+        color: black;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+      }
+      #nav2 {
+        position: relative;
+        font-size: 50px;
+      }
+}
